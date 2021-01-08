@@ -1,0 +1,286 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>HippoTech Mortgages Online</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="css/tailwind.css" rel="stylesheet" />
+</head>
+<body>
+<!-- <p th:text="'Hello, ' + ${name} + '!'" /> -->
+<!-- This example requires Tailwind CSS v2.0+ -->
+<div class="relative bg-gray-50">
+    <div class="relative bg-white shadow">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+                <div class="flex justify-start lg:w-0 lg:flex-1">
+                    <a href="#">
+                        <span class="sr-only">Workflow</span>
+                        <img class="h-8 w-auto sm:h-10" src="hippo.svg" alt="">
+                    </a>
+                </div>
+                <div class="-mr-2 -my-2 md:hidden">
+                    <button type="button" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                        <span class="sr-only">Open menu</span>
+                        <!-- Heroicon name: menu -->
+                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+          </div>
+
+          <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <div class="flex justify-between items-center py-6 md:justify-start md:space-x-10">
+        <form class="space-y-8 divide-y divide-gray-200" method="post">
+          <input type="hidden" th:name="${_csrf.parameterName}" th:value="${_csrf.token}" />
+          <div class="space-y-8 divide-y divide-gray-200 sm:space-y-5">
+            <div>
+              <div>
+                <h3 class="text-lg leading-6 font-medium text-gray-900">
+                  Tell us about your dream home!
+                </h3>
+                <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                  We can't wait to help you move in to it :-)
+                </p>
+              </div>
+        
+              <div class="mt-6 sm:mt-5 space-y-6 sm:space-y-5">
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="propertyPostCode" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    Post code
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <div class="max-w-lg flex rounded-md shadow-sm">
+                      <input autofocus type="text" name="propertyPostCode" id="propertyPostCode" class="flex-1 block w-full focus:ring-indigo-500 focus:border-indigo-500 min-w-0 rounded-none rounded-r-md sm:text-sm border-gray-300">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="propertyValue" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    Value
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <div class="max-w-lg flex rounded-md shadow-sm">
+                      <input type="text" name="propertyValue" id="propertyValue" class="flex-1 block w-full focus:ring-indigo-500 focus:border-indigo-500 min-w-0 rounded-none rounded-r-md sm:text-sm border-gray-300">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="amountToBorrow" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    Amount to borrow
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <div class="max-w-lg flex rounded-md shadow-sm">
+                      <input type="text" name="amountToBorrow" id="amountToBorrow" class="flex-1 block w-full focus:ring-indigo-500 focus:border-indigo-500 min-w-0 rounded-none rounded-r-md sm:text-sm border-gray-300">
+                    </div>
+                  </div>
+                </div>
+        
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="about" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    Comments
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <textarea name="about" id="about" rows="3" class="max-w-lg shadow-sm block w-full focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md"></textarea>
+                    <p class="mt-2 text-sm text-gray-500">Is there anything else you think we should know?</p>
+                  </div>
+                </div>
+        
+                </div>
+              </div>
+            </div>
+        
+            <div class="pt-8 space-y-6 sm:pt-10 sm:space-y-5">
+              <div>
+                <h3 class="text-lg leading-6 font-medium text-gray-900">
+                  Personal Information
+                </h3>
+                <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                  Don't worry: HippoTech takes your privacy seriously! We comply with all relevant GDPR legislation.
+                </p>
+              </div>
+              <div class="space-y-6 sm:space-y-5">
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="firstName" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    First name
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <input type="text" name="firstName" id="firstName" class="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md">
+                  </div>
+                </div>
+        
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="lastName" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    Last name
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <input type="text" name="lastName" id="lastName" class="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md">
+                  </div>
+                </div>
+
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="nationalInsuranceNumber" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    National Insurance Number
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <input type="text" name="nationalInsuranceNumber" id="nationalInsuranceNumber" class="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md">
+                  </div>
+                </div>
+        
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="country" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    Country / Region
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <select name="country" id="country" class="max-w-lg block focus:ring-indigo-500 focus:border-indigo-500 w-full shadow-sm sm:max-w-xs sm:text-sm border-gray-300 rounded-md">
+                      <option>United Kingdom</option>
+                      <option>Canada</option>
+                      <option>Mexico</option>
+                    </select>
+                  </div>
+                </div>
+        
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="streetAddress" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    Street address
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <input type="text" name="streetAddress" id="streetAddress" class="block max-w-lg w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm border-gray-300 rounded-md">
+                  </div>
+                </div>
+        
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="city" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    City
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <input type="text" name="city" id="city" class="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md">
+                  </div>
+                </div>
+
+                <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-start sm:border-t sm:border-gray-200 sm:pt-5">
+                  <label for="postCode" class="block text-sm font-medium text-gray-700 sm:mt-px sm:pt-2">
+                    Post code
+                  </label>
+                  <div class="mt-1 sm:mt-0 sm:col-span-2">
+                    <input type="text" name="postCode" id="postCode" class="max-w-lg block w-full shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:max-w-xs sm:text-sm border-gray-300 rounded-md">
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+            <div class="divide-y divide-gray-200 pt-8 space-y-6 sm:pt-10 sm:space-y-5">
+              <div>
+                <h3 class="text-lg leading-6 font-medium text-gray-900">
+                  Notifications
+                </h3>
+                <p class="mt-1 max-w-2xl text-sm text-gray-500">
+                  We'll always let you know about important changes, but you pick what else you want to hear about.
+                </p>
+              </div>
+              <div class="space-y-6 sm:space-y-5 divide-y divide-gray-200">
+                <div class="pt-6 sm:pt-5">
+                  <div role="group" aria-labelledby="label-email">
+                    <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-baseline">
+                      <div>
+                        <div class="text-base font-medium text-gray-900 sm:text-sm sm:text-gray-700" name="byEmail" id="byEmail">
+                          By Email
+                        </div>
+                      </div>
+                      <div class="mt-4 sm:mt-0 sm:col-span-2">
+                        <div class="max-w-lg space-y-4">
+                          <div class="relative flex items-start">
+                            <div class="flex items-center h-5">
+                              <input name="approval" id="approval" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                            </div>
+                            <div class="ml-3 text-sm">
+                              <label for="approval" class="font-medium text-gray-700">Approval</label>
+                              <p class="text-gray-500">Get notified as soon as we agree your mortgage in approval.</p>
+                            </div>
+                          </div>
+                          <div>
+                            <div class="relative flex items-start">
+                              <div class="flex items-center h-5">
+                                <input name="changes" id="changes" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                              </div>
+                              <div class="ml-3 text-sm">
+                                <label for="changes" class="font-medium text-gray-700">Changes</label>
+                                <p class="text-gray-500">Get notified if there are any potential changes to your agreement in principle.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div>
+                            <div class="relative flex items-start">
+                              <div class="flex items-center h-5">
+                                <input name="offers" id="offers" type="checkbox" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+                              </div>
+                              <div class="ml-3 text-sm">
+                                <label for="offers" class="font-medium text-gray-700">Offers</label>
+                                <p class="text-gray-500">Get notified when you become eligible for exciting new offers.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pt-6 sm:pt-5">
+                  <div role="group" aria-labelledby="label-notifications">
+                    <div class="sm:grid sm:grid-cols-3 sm:gap-4 sm:items-baseline">
+                      <div>
+                        <div class="text-base font-medium text-gray-900 sm:text-sm sm:text-gray-700" id="label-notifications">
+                          Push Notifications
+                        </div>
+                      </div>
+                      <div class="sm:col-span-2">
+                        <div class="max-w-lg">
+                          <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.</p>
+                          <div class="mt-4 space-y-4">
+                            <div class="flex items-center">
+                              <input value="pushEverything" id="pushEverything" name="pushNotifications" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                              <label for="pushEverything" class="ml-3 block text-sm font-medium text-gray-700">
+                                Everything
+                              </label>
+                            </div>
+                            <div class="flex items-center">
+                              <input value="pushEmail" id="pushEmail" name="pushNotifications" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                              <label for="pushEmail" class="ml-3 block text-sm font-medium text-gray-700">
+                                Same as email
+                              </label>
+                            </div>
+                            <div class="flex items-center">
+                              <input value="pushNothing" id="pushNothing" name="pushNotifications" type="radio" class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+                              <label for="pushNothing" class="ml-3 block text-sm font-medium text-gray-700">
+                                No push notifications
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          <div class="pt-5">
+            <div class="flex justify-end">
+              <button type="button" class="bg-white py-2 px-4 border border-gray-300 rounded-md shadow-sm text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                Cancel
+              </button>
+              <button type="submit" class="ml-3 inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+                Get me a mortgage!
+              </button>
+            </div>
+          </div>
+        </form>
+        </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
