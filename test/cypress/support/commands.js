@@ -23,3 +23,13 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+const config = require('../hippoconfig');
+
+Cypress.Commands.add("login", () => {
+  cy.visit(config.baseUrl + '/signin');
+  cy.get('#email').type('mtolley@synopsys.com');
+  cy.get('#password').type('password123')
+  cy.get('#submit-button').click();
+  cy.contains('Get a mortgage');
+});
