@@ -15,6 +15,7 @@ app.post('/signup', (req, res) => {
   console.log("Received email signup request from front end: " + req.body.email);
   collection.insertOne({ email : req.body.email }).then(() => {
     console.log("Email signup request stored in MongoDB");
+    res.send('');
   })
 });
 
