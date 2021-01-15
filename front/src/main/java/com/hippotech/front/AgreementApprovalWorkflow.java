@@ -12,13 +12,9 @@ import org.springframework.web.client.RestTemplate;
 import org.springframework.http.HttpHeaders;
 
 
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
-
 @Component("agreementApprovalWorkflow")
 public class AgreementApprovalWorkflow {
-    @Value("${approval.url:http://localhost:4002}")
+    @Value("${approval.url}")
     private String approvalUrl;
 
     Logger logger = LoggerFactory.getLogger(AgreementApprovalWorkflow.class);
