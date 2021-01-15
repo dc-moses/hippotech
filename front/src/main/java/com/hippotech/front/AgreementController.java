@@ -1,5 +1,7 @@
 package com.hippotech.front;
 
+import org.hibernate.service.spi.InjectService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,6 +19,9 @@ public class AgreementController {
     }
 
 
+    @Autowired
+    public AgreementApprovalWorkflow workflow;
+
     @PostMapping("/agreement")
     public String postAgreement(@RequestParam(required=false, defaultValue="") String propertyPostCode,
                                 @RequestParam(required=false, defaultValue="0") int propertyValue,
@@ -33,6 +38,29 @@ public class AgreementController {
                                 @RequestParam(required=false, defaultValue="false") Boolean changes,
                                 @RequestParam(required=false, defaultValue="false") Boolean offers,
                                 @RequestParam(required=false, defaultValue="") String pushNotifications) {
+
+        ApprovalRequest approvalRequest = new ApprovalRequest();
+        approvalRequest.setPropertyPostCode(propertyPostCode);
+        approvalRequest.setPropertyValue(propertyValue);
+        approvalRequest.setAmountToBorrow(amountToBorrow);
+        approvalRequest.setAbout(about);
+        approvalRequest.setFirstName(firstName);
+        approvalRequest.setLastName(lastName);
+        approvalRequest.setNationalInsuranceNumber(nationalInsuranceNumber);
+        approvalRequest.setCountry(country);
+        approvalRequest.setStreetAddress(streetAddress);
+        approvalRequest.setCity(city);
+        approvalRequest.setPostCode(postCode);
+        approvalRequest.setApprovalNotifications(approval);
+        approvalRequest.setChangeNotifications(changes);
+        approvalRequest.setOfferNotifications(offers);
+        approvalRequest.setPushNotifications(pushNotifications);
+
+        // Send the approval request to the backend for processing
+        // and resume serving up great Web content to our customers
+        // on the front end!
+        this.workflow.submitForApproval(approvalRequest);
+
         return "completed";
     }
 }
