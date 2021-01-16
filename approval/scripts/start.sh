@@ -2,7 +2,7 @@
 
 echo "Starting HippoTech approval backend..."
 output=$(mktemp "${TMPDIR:-/tmp/}$(basename 0).XXX")
-java $JAVA_OPTS -jar ./target/approval-0.0.1-SNAPSHOT.jar  &> $output &
+java $JAVA_OPTS -jar ./target/approval.jar  &> $output &
 server_pid=$!
 echo "Server pid: $server_pid"
 echo "Output: $output"

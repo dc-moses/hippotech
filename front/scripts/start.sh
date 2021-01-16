@@ -2,7 +2,7 @@
 
 echo "Starting HippoTech front..."
 output=$(mktemp "${TMPDIR:-/tmp/}$(basename 0).XXX")
-java $JAVA_OPTS -jar ./target/front-0.0.1-SNAPSHOT.jar  &> $output &
+java $JAVA_OPTS -jar ./target/front.jar  &> $output &
 server_pid=$!
 echo "Server pid: $server_pid"
 echo "Output: $output"
