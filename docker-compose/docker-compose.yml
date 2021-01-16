@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+    front:
+        container_name: front
+        image: hippotech-front
+        environment: 
+            APPROVAL_URL: "http://approval:4002"
+            BLOG_URL: "http://blog:4003"
+        ports:
+            - 4001:4001
+
+    approval:
+        container_name: approval
+        image: hippotech-approval
+        ports:
+            - 4002:4002
+
+    blog:
+        container_name: blog
+        image: hippotech-blog
+        ports:
+          - 4003:4003
+        environment: 
+            MONGO_URL: "mongodb://mongo:27017"
+        depends_on: 
+          - mongo
+    mongo:
+        container_name: 'mongo'
+        image: mongo:4.4.3-bionic
