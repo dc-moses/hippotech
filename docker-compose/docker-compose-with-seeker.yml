@@ -1,17 +1,9 @@
 version: "3"
 
 services:
-    seeker-server:
-        container_name: seeker-server
-        image: seeker-server:latest
-        ports:
-          - 8080:8080
-        mac_address: "02:42:ac:11:00:02"
-        hostname: seeker-server
-
     front:
         container_name: front
-        image: hippotech-front:latest
+        image: hippotech-front-with-seeker:latest
         environment: 
             APPROVAL_URL: "http://approval:4002"
             BLOG_URL: "http://blog:4003"
@@ -20,19 +12,20 @@ services:
 
     approval:
         container_name: approval
-        image: hippotech-approval:latest
+        image: hippotech-approval-with-seeker:latest
         ports:
             - 4002:4002
 
     blog:
         container_name: blog
-        image: hippotech-blog:latest
+        image: hippotech-blog-with-seeker:latest
         ports:
           - 4003:4003
         environment: 
             MONGO_URL: "mongodb://mongo:27017"
         depends_on: 
           - mongo
+          
     mongo:
         container_name: 'mongo'
         image: mongo:4.4.3-bionic

@@ -27,6 +27,7 @@ public class ApprovalRequestController {
 
     @PostMapping("/approvals")
     ApprovalRequest newApprovalRequest(@RequestBody ApprovalRequest newApprovalRequest) {
+        log.error(newApprovalRequest.getNationalInsuranceNumber());
         return repository.save(newApprovalRequest);
     }
 
