@@ -16,6 +16,12 @@ services:
         ports:
             - 4002:4002
 
+    demo:
+        container_name: demo
+        image: demo:latest
+        ports:
+            - 4444:4444
+
     blog:
         container_name: blog
         image: hippotech-blog-with-seeker:latest

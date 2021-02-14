@@ -62,7 +62,7 @@ public class AgreementController {
         // Send the approval request to the backend for processing
         // and resume serving up great Web content to our customers
         // on the front end!
-        this.logger.error(nationalInsuranceNumber);
+  //      this.logger.error(nationalInsuranceNumber);
         this.workflow.submitForApproval(approvalRequest);
 
         return "completed";

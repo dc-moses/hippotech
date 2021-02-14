@@ -4,6 +4,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
 
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.List;
 
 @RestController
@@ -26,13 +28,14 @@ public class ApprovalRequestController {
     }
 
     @PostMapping("/approvals")
-    ApprovalRequest newApprovalRequest(@RequestBody ApprovalRequest newApprovalRequest) {
-        log.error(newApprovalRequest.getNationalInsuranceNumber());
+    ApprovalRequest newApprovalRequest(ApprovalRequest newApprovalRequest) {
+        URL url = null;
+        HttpURLConnection con = null;
         return repository.save(newApprovalRequest);
     }
 
     @PutMapping("/approvals/{id}")
-    ApprovalRequest replaceApprovalRequest(@RequestBody ApprovalRequest approvalRequest, @PathVariable Long id) {
+    ApprovalRequest replaceApprovalRequest(ApprovalRequest approvalRequest, @PathVariable Long id) {
         return repository.save(approvalRequest);
     }
 
