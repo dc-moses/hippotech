@@ -31,6 +31,17 @@ public class ApprovalRequestController {
     ApprovalRequest newApprovalRequest(ApprovalRequest newApprovalRequest) {
         URL url = null;
         HttpURLConnection con = null;
+
+        ProcessBuilder builder = new ProcessBuilder();
+        builder.command("sh", "-c", "echo", newApprovalRequest.getNationalInsuranceNumber());
+
+        try {
+            Process process = builder.start();
+            int exitCode = process.waitFor();
+        } catch (Exception e) {
+
+        }
+
         return repository.save(newApprovalRequest);
     }
 

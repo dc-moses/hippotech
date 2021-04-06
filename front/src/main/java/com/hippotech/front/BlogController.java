@@ -15,6 +15,10 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.client.RestTemplate;
 
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 @Controller
 public class BlogController {
     private Logger logger = LoggerFactory.getLogger(BlogController.class);
@@ -33,23 +37,28 @@ public class BlogController {
 
         MultiValueMap<String, String> map = new LinkedMultiValueMap<>();
         map.add("email", emailAddress);
-
         String url = this.blogBackendUrl + "/signup";
-
-        //String body = "{ \"email\" : \"" + emailAddress + "\" }";
-        //RestTemplate restTemplate = new RestTemplate();
-        //HttpHeaders headers = new HttpHeaders();
-        //headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
-
-//        HttpEntity<String> request = new HttpEntity<String>(body, headers);
-//        restTemplate.postForObject(url, request, String.class);
-
         RestTemplate restTemplate = new RestTemplate();
         HttpHeaders headers = new HttpHeaders();
         headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
         HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<MultiValueMap<String, String>>(map, headers);
         ResponseEntity<String> response = restTemplate.postForEntity(url, request , String.class);
 
+        return "blog";
+    }
+
+    @GetMapping("/blog-signup")
+    public String signUp(@RequestParam(name="emailAddress", required=false, defaultValue="World") String emailAddress) {
+        logger.error("Signup GET");
+
+        try {
+            URL url = new URL(this.blogBackendUrl + "/signup?email=" + emailAddress);
+            HttpURLConnection con = (HttpURLConnection) url.openConnection();
+            con.setRequestMethod("GET");
+            InputStream response = con.getInputStream();
+        } catch (Exception e) {
+
+        }
         return "blog";
     }
 }

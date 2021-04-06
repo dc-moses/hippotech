@@ -1,0 +1,1662 @@
+[General]
+	- Generated on Sun Mar 21 15:37:11 GMT 2021 (21 Mar 2021, 15:37:11 Coordinated Universal Time)
+Seeker Java Agent
+- version     : 2021.02
+- build number: 2021-02-08T16:41:23Z
+- SCM branch  : UNKNOWN
+- SCM revision: 4960b45c
+
+[Process]
+{
+  "processKey" : "default",
+  "projectKey" : "default",
+  "collectorKey" : "default",
+  "uuid" : "aeec8a04-d955-4127-afb4-77fcf521d530",
+  "startTstamp" : 1616335241909,
+  "cmdLine" : "java -cp target/front.jar -javaagent:/Users/scott/Synopsys/seeker/hippotech/front/seeker-agent.jar target/front.jar",
+  "user" : "scott",
+  "pid" : "71024",
+  "type" : "JAVA",
+  "context" : {
+    "mainClass" : "org.springframework.boot.loader.JarLauncher",
+    "workingDir" : "/Users/scott/Synopsys/seeker/hippotech/front",
+    "programArguments" : [ ]
+  },
+  "agentVersion" : "2021.02",
+  "hostname" : "Michaels-MBP.lan",
+  "osFamily" : "MAC",
+  "ipAddresses" : [ "192.168.190.1", "172.16.136.1", "192.168.1.155" ]
+}
+
+[Environment]
+	- AWS_PROFILE: claudia
+	- COLORFGBG: 15;0
+	- COLORTERM: truecolor
+	- CONDA_DEFAULT_ENV: base
+	- CONDA_EXE: /Users/scott/opt/anaconda3/bin/conda
+	- CONDA_PREFIX: /Users/scott/opt/anaconda3
+	- CONDA_PROMPT_MODIFIER: (base) 
+	- CONDA_PYTHON_EXE: /Users/scott/opt/anaconda3/bin/python
+	- CONDA_SHLVL: 1
+	- ECR_REPO: 240465542461.dkr.ecr.eu-west-2.amazonaws.com
+	- HOME: /Users/scott
+	- ITERM_PROFILE: Default
+	- ITERM_SESSION_ID: w0t4p0:5D3A1E0D-054F-41BD-9184-5BF8B55B488B
+	- JAVA_HOME: /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+	- LANG: en_GB.UTF-8
+	- LC_TERMINAL: iTerm2
+	- LC_TERMINAL_VERSION: 3.4.4
+	- LOGNAME: scott
+	- NVM_BIN: /Users/scott/.nvm/versions/node/v12.20.0/bin
+	- NVM_CD_FLAGS: -q
+	- NVM_DIR: /Users/scott/.nvm
+	- NVM_INC: /Users/scott/.nvm/versions/node/v12.20.0/include/node
+	- OLDPWD: /Users/scott/Synopsys/seeker/hippotech
+	- PATH: /Users/scott/opt/anaconda3/bin:/Users/scott/opt/anaconda3/condabin:/Users/scott/mongo/bin:/Users/scott/.nvm/versions/node/v12.20.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/go/bin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS
+	- PWD: /Users/scott/Synopsys/seeker/hippotech/front
+	- SHELL: /bin/zsh
+	- SHLVL: 1
+	- SSH_AUTH_SOCK: /private/tmp/com.apple.launchd.NhUhnUVoth/Listeners
+	- TERM: xterm-256color
+	- TERM_PROGRAM: iTerm.app
+	- TERM_PROGRAM_VERSION: 3.4.4
+	- TERM_SESSION_ID: w0t4p0:5D3A1E0D-054F-41BD-9184-5BF8B55B488B
+	- TMPDIR: /var/folders/r8/9qzkxsr16dld9v15d8p3fh100000gn/T/
+	- USER: scott
+	- XPC_FLAGS: 0x0
+	- XPC_SERVICE_NAME: 0
+	- _: /usr/bin/java
+	- _CE_CONDA: 
+	- _CE_M: 
+	- __CF_USER_TEXT_ENCODING: 0x1F5:0x0:0x2
+
+[JVM]
+Input args:
+	- -javaagent:/Users/scott/Synopsys/seeker/hippotech/front/seeker-agent.jar
+Properties:
+	- gopherProxySet: false
+	- awt.toolkit: sun.lwawt.macosx.LWCToolkit
+	- java.specification.version: 11
+	- sun.cpu.isalist: 
+	- sun.jnu.encoding: UTF-8
+	- java.class.path: target/front.jar
+	- java.vm.vendor: AdoptOpenJDK
+	- sun.arch.data.model: 64
+	- java.vendor.url: https://adoptopenjdk.net/
+	- catalina.useNaming: false
+	- user.timezone: Europe/London
+	- os.name: Mac OS X
+	- java.vm.specification.version: 11
+	- sun.java.launcher: SUN_STANDARD
+	- user.country: GB
+	- sun.boot.library.path: /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib
+	- sun.java.command: target/front.jar
+	- http.nonProxyHosts: local|*.local|169.254/16|*.169.254/16
+	- jdk.debug: release
+	- sun.cpu.endian: little
+	- user.home: /Users/scott
+	- user.language: en
+	- java.specification.vendor: Oracle Corporation
+	- java.version.date: 2020-04-14
+	- java.home: /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home
+	- file.separator: /
+	- java.vm.compressedOopsMode: Zero based
+	- line.separator: 
+
+	- java.specification.name: Java Platform API Specification
+	- java.vm.specification.vendor: Oracle Corporation
+	- FILE_LOG_CHARSET: UTF-8
+	- java.awt.graphicsenv: sun.awt.CGraphicsEnvironment
+	- java.awt.headless: true
+	- java.protocol.handler.pkgs: org.springframework.boot.loader
+	- sun.management.compiler: HotSpot 64-Bit Tiered Compilers
+	- ftp.nonProxyHosts: local|*.local|169.254/16|*.169.254/16
+	- java.runtime.version: 11.0.7+10
+	- user.name: scott
+	- path.separator: :
+	- os.version: 10.15.7
+	- java.runtime.name: OpenJDK Runtime Environment
+	- file.encoding: UTF-8
+	- spring.beaninfo.ignore: true
+	- java.vm.name: OpenJDK 64-Bit Server VM
+	- java.vendor.version: AdoptOpenJDK
+	- java.vendor.url.bug: https://github.com/AdoptOpenJDK/openjdk-support/issues
+	- java.io.tmpdir: /var/folders/r8/9qzkxsr16dld9v15d8p3fh100000gn/T/
+	- catalina.home: /private/var/folders/r8/9qzkxsr16dld9v15d8p3fh100000gn/T/tomcat.4001.343057294869580436
+	- java.version: 11.0.7
+	- user.dir: /Users/scott/Synopsys/seeker/hippotech/front
+	- os.arch: x86_64
+	- java.vm.specification.name: Java Virtual Machine Specification
+	- PID: 71024
+	- java.awt.printerjob: sun.lwawt.macosx.CPrinterJob
+	- sun.os.patch.level: unknown
+	- CONSOLE_LOG_CHARSET: UTF-8
+	- catalina.base: /private/var/folders/r8/9qzkxsr16dld9v15d8p3fh100000gn/T/tomcat.4001.343057294869580436
+	- java.library.path: /Users/scott/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	- java.vendor: AdoptOpenJDK
+	- java.vm.info: mixed mode
+	- java.vm.version: 11.0.7+10
+	- sun.io.unicode.encoding: UnicodeBig
+	- java.class.version: 55.0
+	- socksNonProxyHosts: local|*.local|169.254/16|*.169.254/16
+
+[Classpath]
+Bootstrap classpath:
+(not supported by this JVM)
+System classpath:
+	- Custom class loader: jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15
+
+[System]
+/!\ Sizes are estimates /!\
+RAM Status:
+	- Used memory: 312M
+	- Free memory: 919M
+	- Total memory: 1232M
+	- Max memory: 16384M
+Processor:
+	- Available processors: 16
+
+
+[Probe: class-loader]
+Instrumented classes: 7
+	java/lang/ClassLoader extends java/lang/Object
+	jdk/internal/loader/BuiltinClassLoader extends java/security/SecureClassLoader
+	jdk/internal/loader/ClassLoaders$AppClassLoader extends jdk/internal/loader/BuiltinClassLoader
+	org/apache/catalina/loader/WebappClassLoaderBase extends java/net/URLClassLoader implements [org/apache/catalina/Lifecycle, org/apache/tomcat/InstrumentableClassLoader, org/apache/juli/WebappProperties, org/apache/tomcat/util/security/PermissionCheck]
+	org/springframework/boot/loader/LaunchedURLClassLoader extends java/net/URLClassLoader
+	org/springframework/boot/web/embedded/tomcat/TomcatEmbeddedWebappClassLoader extends org/apache/catalina/loader/ParallelWebappClassLoader
+	org/springframework/context/support/ContextTypeMatchClassLoader extends org/springframework/core/DecoratingClassLoader implements [org/springframework/core/SmartClassLoader]
+Total time spent: 0
+Number of invocations: 0
+Class Loaders:
+jdk.internal.reflect.DelegatingClassLoader@12f306f7 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@42708880 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@530f6cea ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@66ac1070 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@7f0045ae ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@5949bcfe ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@55c57bb4
+
+jdk.internal.reflect.DelegatingClassLoader@7e1150f ---> com.synopsys.seeker.agent._snpsthirdparty.com_synopsys_unicol.agent.bootstrap.CoreClassLoader@780cb77 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@56f78035 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@7915740b ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@3c91dda1 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@1a8ac27e ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@34a8facf ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@2b7b33b6 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@2e73625c ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@5baded37 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@4455f421 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@2b20c226
+
+jdk.internal.reflect.DelegatingClassLoader@7f276da2 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@3bbcfe0d ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@d617342 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@202b3f50
+
+jdk.internal.reflect.DelegatingClassLoader@712cc3f9 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@310ea4f
+
+jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@5ad7c4c7 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@4b0fc4b1 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@25f40148 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@c4c5ed8 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@26d330c7 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@67835667 ---> com.synopsys.seeker.agent._snpsthirdparty.com_synopsys_unicol.agent.bootstrap.CoreClassLoader@780cb77 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@789e870c ---> com.synopsys.seeker.agent._snpsthirdparty.com_synopsys_unicol.agent.bootstrap.CoreClassLoader@780cb77 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@2dac8ef8 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@6ee22691
+
+jdk.internal.reflect.DelegatingClassLoader@6690d96b ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@76563c22 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@40a32125 ---> com.synopsys.seeker.agent._snpsthirdparty.com_synopsys_unicol.agent.bootstrap.CoreClassLoader@780cb77 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@6a3ee61e ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@389ac477 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@1384792
+
+jdk.internal.reflect.DelegatingClassLoader@2f139405 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@58904c9f ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@2b03242f ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@6d610dfd ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@77df7cb6
+
+jdk.internal.reflect.DelegatingClassLoader@20dc7db6 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@2eb59e0b ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@3a8cd966 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@e846ea3 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@100ca079 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@5f2f14ab ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@19ce509a
+
+jdk.internal.reflect.DelegatingClassLoader@2f8b1f0f ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@32ae2696 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@48831f53
+
+jdk.internal.reflect.DelegatingClassLoader@735c9572 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@7f3e15ce ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@5f8d4214
+
+jdk.internal.reflect.DelegatingClassLoader@228c8db9 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@3fecc1b0 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@1c9d2d9b ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@320c2f8d ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@23fb334e ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@24b23fbd ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@23b84840 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@42ce08f9 ---> com.synopsys.seeker.agent._snpsthirdparty.com_synopsys_unicol.agent.bootstrap.CoreClassLoader@780cb77 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@75aa5dbf ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@4a330e92 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@6034bf0c ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@7c9bffa8 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@5bb048a2 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@1360ec77 ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+jdk.internal.reflect.DelegatingClassLoader@2ca3020f ---> org.springframework.boot.loader.LaunchedURLClassLoader@5cfde2a4 ---> jdk.internal.loader.ClassLoaders$AppClassLoader@2c13da15 ---> jdk.internal.loader.ClassLoaders$PlatformClassLoader@3bf52f8f
+
+
+[Probe: datatainting]
+Instrumented classes: 43
+	com/fasterxml/jackson/core/JsonFactory extends com/fasterxml/jackson/core/TokenStreamFactory implements [com/fasterxml/jackson/core/Versioned, java/io/Serializable]
+	com/fasterxml/jackson/databind/ObjectMapper extends com/fasterxml/jackson/core/ObjectCodec implements [com/fasterxml/jackson/core/Versioned, java/io/Serializable]
+	com/hippotech/front/AgreementController extends java/lang/Object
+	com/hippotech/front/BlogController extends java/lang/Object
+	com/hippotech/front/CompletedController extends java/lang/Object
+	com/hippotech/front/IndexController extends java/lang/Object
+	com/hippotech/front/SignUpController extends java/lang/Object
+	java/io/BufferedInputStream extends java/io/FilterInputStream
+	java/io/ByteArrayInputStream extends java/io/InputStream
+	java/io/DataInputStream extends java/io/FilterInputStream implements [java/io/DataInput]
+	java/io/FilterInputStream extends java/io/InputStream
+	java/io/InputStreamReader extends java/io/Reader
+	java/io/PushbackInputStream extends java/io/FilterInputStream
+	java/io/StringReader extends java/io/Reader
+	java/io/UnixFileSystem extends java/io/FileSystem
+	java/lang/AbstractStringBuilder extends java/lang/Object implements [java/lang/Appendable, java/lang/CharSequence]
+	java/lang/String extends java/lang/Object implements [java/io/Serializable, java/lang/Comparable, java/lang/CharSequence]
+	java/lang/StringBuffer extends java/lang/AbstractStringBuilder implements [java/io/Serializable, java/lang/Comparable, java/lang/CharSequence]
+	java/lang/StringBuilder extends java/lang/AbstractStringBuilder implements [java/io/Serializable, java/lang/Comparable, java/lang/CharSequence]
+	java/net/URI extends java/lang/Object implements [java/lang/Comparable, java/io/Serializable]
+	java/net/URL extends java/lang/Object implements [java/io/Serializable]
+	java/net/URLDecoder extends java/lang/Object
+	java/net/URLEncoder extends java/lang/Object
+	java/nio/ByteBuffer extends java/nio/Buffer implements [java/lang/Comparable]
+	java/nio/DirectByteBuffer extends java/nio/MappedByteBuffer implements [sun/nio/ch/DirectBuffer]
+	java/nio/DirectByteBufferR extends java/nio/DirectByteBuffer implements [sun/nio/ch/DirectBuffer]
+	java/nio/HeapByteBuffer extends java/nio/ByteBuffer
+	java/util/Base64$Decoder extends java/lang/Object
+	java/util/jar/JarInputStream extends java/util/zip/ZipInputStream
+	java/util/jar/Manifest$FastInputStream extends java/io/FilterInputStream
+	java/util/zip/GZIPInputStream extends java/util/zip/InflaterInputStream
+	java/util/zip/InflaterInputStream extends java/io/FilterInputStream
+	java/util/zip/ZipInputStream extends java/util/zip/InflaterInputStream implements [java/util/zip/ZipConstants]
+	javax/servlet/ServletRequestWrapper extends java/lang/Object implements [javax/servlet/ServletRequest]
+	javax/servlet/http/HttpServletRequestWrapper extends javax/servlet/ServletRequestWrapper implements [javax/servlet/http/HttpServletRequest]
+	org/apache/catalina/connector/Request extends java/lang/Object implements [javax/servlet/http/HttpServletRequest]
+	org/apache/catalina/connector/RequestFacade extends java/lang/Object implements [javax/servlet/http/HttpServletRequest]
+	org/apache/catalina/core/ApplicationHttpRequest extends javax/servlet/http/HttpServletRequestWrapper
+	org/apache/tomcat/util/buf/CharChunk extends org/apache/tomcat/util/buf/AbstractChunk implements [java/lang/CharSequence]
+	org/springframework/security/web/firewall/StrictHttpFirewall$StrictFirewalledRequest extends org/springframework/security/web/firewall/FirewalledRequest
+	org/springframework/util/StreamUtils$NonClosingInputStream extends java/io/FilterInputStream
+	org/xml/sax/InputSource extends java/lang/Object
+	sun/nio/fs/UnixPath extends java/lang/Object implements [java/nio/file/Path]
+Total time spent: 0
+Number of invocations: 0
+Number of tainted objects: 582
+Ignored CharSequence classes: 11
+	org/springframework/boot/loader/jar/StringSequence
+	org/springframework/core/log/LogMessage
+	org/springframework/core/log/LogMessage$SupplierMessage
+	org/springframework/core/log/LogMessage$FormatMessage
+	org/springframework/boot/origin/OriginTrackedValue$OriginTrackedCharSequence
+	org/springframework/core/log/LogMessage$FormatMessageX
+	org/springframework/core/log/LogMessage$FormatMessage3
+	org/springframework/core/log/LogMessage$FormatMessage4
+	org/springframework/core/log/LogMessage$FormatMessage1
+	java/nio/StringCharBuffer
+	org/springframework/core/log/LogMessage$FormatMessage2
+
+[Probe: sanitizer]
+Instrumented classes: 1
+	java/util/regex/Pattern extends java/lang/Object implements [java/io/Serializable]
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: string-intern]
+Instrumented classes: 4
+	java/lang/Class extends java/lang/Object implements [java/io/Serializable, java/lang/reflect/GenericDeclaration, java/lang/reflect/Type, java/lang/reflect/AnnotatedElement]
+	javax/management/ObjectName extends java/lang/Object implements [java/lang/Comparable, javax/management/QueryExp]
+	org/apache/catalina/util/LifecycleMBeanBase extends org/apache/catalina/util/LifecycleBase implements [org/apache/catalina/JmxEnabled]
+	org/apache/tomcat/util/modeler/ManagedBean extends java/lang/Object implements [java/io/Serializable]
+Total time spent: 0
+Number of invocations: 0
+Number of String.intern() calls intercepted: 226
+Number of String objects that were tainted: 0
+
+[Probe: gson]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: jackson]
+Instrumented classes: 81
+	com/fasterxml/jackson/core/JsonParser extends java/lang/Object implements [java/io/Closeable, com/fasterxml/jackson/core/Versioned]
+	com/fasterxml/jackson/core/base/ParserBase extends com/fasterxml/jackson/core/base/ParserMinimalBase
+	com/fasterxml/jackson/core/base/ParserMinimalBase extends com/fasterxml/jackson/core/JsonParser
+	com/fasterxml/jackson/core/json/ReaderBasedJsonParser extends com/fasterxml/jackson/core/base/ParserBase
+	com/fasterxml/jackson/core/json/UTF8DataInputJsonParser extends com/fasterxml/jackson/core/base/ParserBase
+	com/fasterxml/jackson/core/json/async/NonBlockingJsonParser extends com/fasterxml/jackson/core/json/async/NonBlockingJsonParserBase implements [com/fasterxml/jackson/core/async/ByteArrayFeeder]
+	com/fasterxml/jackson/core/json/async/NonBlockingJsonParserBase extends com/fasterxml/jackson/core/base/ParserBase
+	com/fasterxml/jackson/databind/JsonSerializer extends java/lang/Object implements [com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitable]
+	com/fasterxml/jackson/databind/node/TreeTraversingParser extends com/fasterxml/jackson/core/base/ParserMinimalBase
+	com/fasterxml/jackson/databind/ser/BeanSerializer extends com/fasterxml/jackson/databind/ser/std/BeanSerializerBase
+	com/fasterxml/jackson/databind/ser/impl/FailingSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer
+	com/fasterxml/jackson/databind/ser/impl/IndexedListSerializer extends com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase
+	com/fasterxml/jackson/databind/ser/impl/IndexedStringListSerializer extends com/fasterxml/jackson/databind/ser/std/StaticListSerializerBase
+	com/fasterxml/jackson/databind/ser/impl/IteratorSerializer extends com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase
+	com/fasterxml/jackson/databind/ser/impl/MapEntrySerializer extends com/fasterxml/jackson/databind/ser/ContainerSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/impl/StringArraySerializer extends com/fasterxml/jackson/databind/ser/std/ArraySerializerBase implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/impl/StringCollectionSerializer extends com/fasterxml/jackson/databind/ser/std/StaticListSerializerBase
+	com/fasterxml/jackson/databind/ser/impl/TypeWrappedSerializer extends com/fasterxml/jackson/databind/JsonSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/impl/UnknownSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer
+	com/fasterxml/jackson/databind/ser/std/ArraySerializerBase extends com/fasterxml/jackson/databind/ser/ContainerSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase extends com/fasterxml/jackson/databind/ser/ContainerSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/BeanSerializerBase extends com/fasterxml/jackson/databind/ser/std/StdSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer, com/fasterxml/jackson/databind/ser/ResolvableSerializer, com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitable, com/fasterxml/jackson/databind/jsonschema/SchemaAware]
+	com/fasterxml/jackson/databind/ser/std/BooleanSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/BooleanSerializer$AsNumber extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/ByteBufferSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/databind/ser/std/CalendarSerializer extends com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase
+	com/fasterxml/jackson/databind/ser/std/ClassSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/databind/ser/std/CollectionSerializer extends com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase
+	com/fasterxml/jackson/databind/ser/std/DateSerializer extends com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase
+	com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/EnumSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/EnumSetSerializer extends com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase
+	com/fasterxml/jackson/databind/ser/std/FileSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/databind/ser/std/InetAddressSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/InetSocketAddressSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/databind/ser/std/IterableSerializer extends com/fasterxml/jackson/databind/ser/std/AsArraySerializerBase
+	com/fasterxml/jackson/databind/ser/std/JsonValueSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer, com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitable, com/fasterxml/jackson/databind/jsonschema/SchemaAware]
+	com/fasterxml/jackson/databind/ser/std/MapSerializer extends com/fasterxml/jackson/databind/ser/ContainerSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/NullSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer
+	com/fasterxml/jackson/databind/ser/std/NumberSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/NumberSerializer$BigDecimalAsStringSerializer extends com/fasterxml/jackson/databind/ser/std/ToStringSerializerBase
+	com/fasterxml/jackson/databind/ser/std/NumberSerializers$DoubleSerializer extends com/fasterxml/jackson/databind/ser/std/NumberSerializers$Base
+	com/fasterxml/jackson/databind/ser/std/NumberSerializers$FloatSerializer extends com/fasterxml/jackson/databind/ser/std/NumberSerializers$Base
+	com/fasterxml/jackson/databind/ser/std/NumberSerializers$IntLikeSerializer extends com/fasterxml/jackson/databind/ser/std/NumberSerializers$Base
+	com/fasterxml/jackson/databind/ser/std/NumberSerializers$IntegerSerializer extends com/fasterxml/jackson/databind/ser/std/NumberSerializers$Base
+	com/fasterxml/jackson/databind/ser/std/NumberSerializers$LongSerializer extends com/fasterxml/jackson/databind/ser/std/NumberSerializers$Base
+	com/fasterxml/jackson/databind/ser/std/NumberSerializers$ShortSerializer extends com/fasterxml/jackson/databind/ser/std/NumberSerializers$Base
+	com/fasterxml/jackson/databind/ser/std/ObjectArraySerializer extends com/fasterxml/jackson/databind/ser/std/ArraySerializerBase implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/ReferenceTypeSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/databind/ser/std/SerializableSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer
+	com/fasterxml/jackson/databind/ser/std/SqlDateSerializer extends com/fasterxml/jackson/databind/ser/std/DateTimeSerializerBase
+	com/fasterxml/jackson/databind/ser/std/SqlTimeSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/databind/ser/std/StdDelegatingSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer, com/fasterxml/jackson/databind/ser/ResolvableSerializer, com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitable, com/fasterxml/jackson/databind/jsonschema/SchemaAware]
+	com/fasterxml/jackson/databind/ser/std/StdJdkSerializers$AtomicBooleanSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/databind/ser/std/StdJdkSerializers$AtomicIntegerSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/databind/ser/std/StdJdkSerializers$AtomicLongSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/databind/ser/std/StdSerializer extends com/fasterxml/jackson/databind/JsonSerializer implements [com/fasterxml/jackson/databind/jsonFormatVisitors/JsonFormatVisitable, com/fasterxml/jackson/databind/jsonschema/SchemaAware, java/io/Serializable]
+	com/fasterxml/jackson/databind/ser/std/StringSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/databind/ser/std/TimeZoneSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/databind/ser/std/ToStringSerializerBase extends com/fasterxml/jackson/databind/ser/std/StdSerializer
+	com/fasterxml/jackson/databind/ser/std/TokenBufferSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer
+	com/fasterxml/jackson/databind/ser/std/UUIDSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/datatype/jdk8/DoubleStreamSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer
+	com/fasterxml/jackson/datatype/jdk8/IntStreamSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer
+	com/fasterxml/jackson/datatype/jdk8/LongStreamSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer
+	com/fasterxml/jackson/datatype/jdk8/OptionalDoubleSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/datatype/jdk8/OptionalIntSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/datatype/jdk8/OptionalLongSerializer extends com/fasterxml/jackson/databind/ser/std/StdScalarSerializer
+	com/fasterxml/jackson/datatype/jdk8/StreamSerializer extends com/fasterxml/jackson/databind/ser/std/StdSerializer implements [com/fasterxml/jackson/databind/ser/ContextualSerializer]
+	com/fasterxml/jackson/datatype/jsr310/ser/DurationSerializer extends com/fasterxml/jackson/datatype/jsr310/ser/JSR310FormattedSerializerBase
+	com/fasterxml/jackson/datatype/jsr310/ser/InstantSerializerBase extends com/fasterxml/jackson/datatype/jsr310/ser/JSR310FormattedSerializerBase
+	com/fasterxml/jackson/datatype/jsr310/ser/LocalDateSerializer extends com/fasterxml/jackson/datatype/jsr310/ser/JSR310FormattedSerializerBase
+	com/fasterxml/jackson/datatype/jsr310/ser/LocalDateTimeSerializer extends com/fasterxml/jackson/datatype/jsr310/ser/JSR310FormattedSerializerBase
+	com/fasterxml/jackson/datatype/jsr310/ser/LocalTimeSerializer extends com/fasterxml/jackson/datatype/jsr310/ser/JSR310FormattedSerializerBase
+	com/fasterxml/jackson/datatype/jsr310/ser/MonthDaySerializer extends com/fasterxml/jackson/datatype/jsr310/ser/JSR310FormattedSerializerBase
+	com/fasterxml/jackson/datatype/jsr310/ser/OffsetTimeSerializer extends com/fasterxml/jackson/datatype/jsr310/ser/JSR310FormattedSerializerBase
+	com/fasterxml/jackson/datatype/jsr310/ser/YearMonthSerializer extends com/fasterxml/jackson/datatype/jsr310/ser/JSR310FormattedSerializerBase
+	com/fasterxml/jackson/datatype/jsr310/ser/YearSerializer extends com/fasterxml/jackson/datatype/jsr310/ser/JSR310FormattedSerializerBase
+	com/fasterxml/jackson/datatype/jsr310/ser/ZonedDateTimeSerializer extends com/fasterxml/jackson/datatype/jsr310/ser/InstantSerializerBase
+	com/fasterxml/jackson/datatype/jsr310/ser/key/ZonedDateTimeKeySerializer extends com/fasterxml/jackson/databind/JsonSerializer
+	com/sun/org/apache/xalan/internal/utils/FeaturePropertyBase extends java/lang/Object
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: json]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: simplejson]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: jaxrs]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of interfaces annotated with JAX-RS: 0
+Annotated classes and methods: 
+
+
+[Probe: spring-mvc]
+Instrumented classes: 8
+	com/hippotech/front/AgreementController extends java/lang/Object
+	com/hippotech/front/BlogController extends java/lang/Object
+	com/hippotech/front/CompletedController extends java/lang/Object
+	com/hippotech/front/IndexController extends java/lang/Object
+	com/hippotech/front/SignInController extends java/lang/Object
+	com/hippotech/front/SignUpController extends java/lang/Object
+	com/hippotech/front/SvgController extends java/lang/Object
+	org/springframework/boot/autoconfigure/web/servlet/error/BasicErrorController extends org/springframework/boot/autoconfigure/web/servlet/error/AbstractErrorController
+Total time spent: 1
+Number of invocations: 6
+
+[Probe: Mimepull]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: http]
+Instrumented classes: 35
+	javax/servlet/AsyncContext extends java/lang/Object
+	javax/servlet/Filter extends java/lang/Object
+	javax/servlet/GenericServlet extends java/lang/Object implements [javax/servlet/Servlet, javax/servlet/ServletConfig, java/io/Serializable]
+	javax/servlet/Servlet extends java/lang/Object
+	javax/servlet/http/HttpServlet extends javax/servlet/GenericServlet
+	javax/servlet/http/HttpServletResponse extends java/lang/Object implements [javax/servlet/ServletResponse]
+	javax/servlet/http/HttpServletResponseWrapper extends javax/servlet/ServletResponseWrapper implements [javax/servlet/http/HttpServletResponse]
+	org/apache/catalina/connector/Response extends java/lang/Object implements [javax/servlet/http/HttpServletResponse]
+	org/apache/catalina/connector/ResponseFacade extends java/lang/Object implements [javax/servlet/http/HttpServletResponse]
+	org/apache/catalina/core/AsyncContextImpl extends java/lang/Object implements [javax/servlet/AsyncContext, org/apache/coyote/AsyncContextCallback]
+	org/apache/tomcat/websocket/server/WsFilter extends javax/servlet/GenericFilter
+	org/springframework/security/web/FilterChainProxy extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/access/ExceptionTranslationFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/access/channel/ChannelProcessingFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/access/intercept/FilterSecurityInterceptor extends org/springframework/security/access/intercept/AbstractSecurityInterceptor implements [javax/servlet/Filter]
+	org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter extends org/springframework/web/filter/GenericFilterBean implements [org/springframework/context/ApplicationEventPublisherAware, org/springframework/context/MessageSourceAware]
+	org/springframework/security/web/authentication/AnonymousAuthenticationFilter extends org/springframework/web/filter/GenericFilterBean implements [org/springframework/beans/factory/InitializingBean]
+	org/springframework/security/web/authentication/logout/LogoutFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/authentication/preauth/AbstractPreAuthenticatedProcessingFilter extends org/springframework/web/filter/GenericFilterBean implements [org/springframework/context/ApplicationEventPublisherAware]
+	org/springframework/security/web/authentication/rememberme/RememberMeAuthenticationFilter extends org/springframework/web/filter/GenericFilterBean implements [org/springframework/context/ApplicationEventPublisherAware]
+	org/springframework/security/web/authentication/switchuser/SwitchUserFilter extends org/springframework/web/filter/GenericFilterBean implements [org/springframework/context/ApplicationEventPublisherAware, org/springframework/context/MessageSourceAware]
+	org/springframework/security/web/authentication/ui/DefaultLoginPageGeneratingFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/authentication/www/DigestAuthenticationFilter extends org/springframework/web/filter/GenericFilterBean implements [org/springframework/context/MessageSourceAware]
+	org/springframework/security/web/context/SecurityContextPersistenceFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/firewall/FirewalledResponse extends javax/servlet/http/HttpServletResponseWrapper
+	org/springframework/security/web/jaasapi/JaasApiIntegrationFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/savedrequest/RequestCacheAwareFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/servletapi/SecurityContextHolderAwareRequestFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/session/ConcurrentSessionFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/session/SessionManagementFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/security/web/util/OnCommittedResponseWrapper extends javax/servlet/http/HttpServletResponseWrapper
+	org/springframework/web/filter/DelegatingFilterProxy extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/web/filter/OncePerRequestFilter extends org/springframework/web/filter/GenericFilterBean
+	org/springframework/web/servlet/FrameworkServlet extends org/springframework/web/servlet/HttpServletBean implements [org/springframework/context/ApplicationContextAware]
+	org/springframework/web/servlet/resource/ResourceUrlEncodingFilter extends org/springframework/web/filter/GenericFilterBean
+Total time spent: 0
+Number of invocations: 0
+Trapped requests: 7
+Total time in requests: 341
+Average time in requests: 48
+
+[Probe: HTTP-BODY]
+Instrumented classes: 87
+	ch/qos/logback/core/joran/spi/ConsoleTarget$1 extends java/io/OutputStream
+	ch/qos/logback/core/joran/spi/ConsoleTarget$2 extends java/io/OutputStream
+	com/fasterxml/jackson/core/JsonGenerator extends java/lang/Object implements [java/io/Closeable, java/io/Flushable, com/fasterxml/jackson/core/Versioned]
+	com/fasterxml/jackson/core/base/GeneratorBase extends com/fasterxml/jackson/core/JsonGenerator
+	com/fasterxml/jackson/core/io/DataOutputAsStream extends java/io/OutputStream
+	com/fasterxml/jackson/core/io/SegmentedStringWriter extends java/io/Writer
+	com/fasterxml/jackson/core/io/UTF8Writer extends java/io/Writer
+	com/fasterxml/jackson/core/json/UTF8JsonGenerator extends com/fasterxml/jackson/core/json/JsonGeneratorImpl
+	com/fasterxml/jackson/core/json/WriterBasedJsonGenerator extends com/fasterxml/jackson/core/json/JsonGeneratorImpl
+	com/fasterxml/jackson/core/util/ByteArrayBuilder extends java/io/OutputStream
+	com/fasterxml/jackson/databind/util/TokenBuffer extends com/fasterxml/jackson/core/JsonGenerator
+	java/io/BufferedInputStream extends java/io/FilterInputStream
+	java/io/BufferedOutputStream extends java/io/FilterOutputStream
+	java/io/BufferedReader extends java/io/Reader
+	java/io/BufferedWriter extends java/io/Writer
+	java/io/ByteArrayInputStream extends java/io/InputStream
+	java/io/ByteArrayOutputStream extends java/io/OutputStream
+	java/io/CharArrayReader extends java/io/Reader
+	java/io/CharArrayWriter extends java/io/Writer
+	java/io/Console extends java/lang/Object implements [java/io/Flushable]
+	java/io/Console$3 extends java/io/PrintWriter
+	java/io/Console$LineReader extends java/io/Reader
+	java/io/DataInputStream extends java/io/FilterInputStream implements [java/io/DataInput]
+	java/io/DataOutputStream extends java/io/FilterOutputStream implements [java/io/DataOutput]
+	java/io/FileInputStream extends java/io/InputStream
+	java/io/FileOutputStream extends java/io/OutputStream
+	java/io/FileWriter extends java/io/OutputStreamWriter
+	java/io/FilterInputStream extends java/io/InputStream
+	java/io/FilterOutputStream extends java/io/OutputStream
+	java/io/InputStream extends java/lang/Object implements [java/io/Closeable]
+	java/io/InputStreamReader extends java/io/Reader
+	java/io/LineNumberReader extends java/io/BufferedReader
+	java/io/ObjectInputStream extends java/io/InputStream implements [java/io/ObjectInput, java/io/ObjectStreamConstants]
+	java/io/ObjectOutputStream extends java/io/OutputStream implements [java/io/ObjectOutput, java/io/ObjectStreamConstants]
+	java/io/OutputStream extends java/lang/Object implements [java/io/Closeable, java/io/Flushable]
+	java/io/OutputStreamWriter extends java/io/Writer
+	java/io/PrintStream extends java/io/FilterOutputStream implements [java/lang/Appendable, java/io/Closeable]
+	java/io/PrintWriter extends java/io/Writer
+	java/io/PushbackInputStream extends java/io/FilterInputStream
+	java/io/Reader extends java/lang/Object implements [java/lang/Readable, java/io/Closeable]
+	java/io/StringReader extends java/io/Reader
+	java/io/StringWriter extends java/io/Writer
+	java/io/Writer extends java/lang/Object implements [java/lang/Appendable, java/io/Closeable, java/io/Flushable]
+	java/net/SocketInputStream extends java/io/FileInputStream
+	java/net/SocketOutputStream extends java/io/FileOutputStream
+	java/util/Base64$DecInputStream extends java/io/InputStream
+	java/util/Base64$EncOutputStream extends java/io/FilterOutputStream
+	java/util/jar/JarInputStream extends java/util/zip/ZipInputStream
+	java/util/jar/Manifest$FastInputStream extends java/io/FilterInputStream
+	java/util/zip/CheckedInputStream extends java/io/FilterInputStream
+	java/util/zip/DeflaterOutputStream extends java/io/FilterOutputStream
+	java/util/zip/GZIPInputStream extends java/util/zip/InflaterInputStream
+	java/util/zip/GZIPOutputStream extends java/util/zip/DeflaterOutputStream
+	java/util/zip/InflaterInputStream extends java/io/FilterInputStream
+	java/util/zip/ZipFile$ZipFileInputStream extends java/io/InputStream
+	java/util/zip/ZipInputStream extends java/util/zip/InflaterInputStream implements [java/util/zip/ZipConstants]
+	java/util/zip/ZipOutputStream extends java/util/zip/DeflaterOutputStream implements [java/util/zip/ZipConstants]
+	javax/servlet/ServletRequest extends java/lang/Object
+	javax/servlet/ServletRequestWrapper extends java/lang/Object implements [javax/servlet/ServletRequest]
+	javax/servlet/ServletResponse extends java/lang/Object
+	javax/servlet/ServletResponseWrapper extends java/lang/Object implements [javax/servlet/ServletResponse]
+	javax/servlet/http/NoBodyOutputStream extends javax/servlet/ServletOutputStream
+	javax/servlet/http/NoBodyResponse extends javax/servlet/http/HttpServletResponseWrapper
+	org/apache/catalina/connector/CoyoteInputStream extends javax/servlet/ServletInputStream
+	org/apache/catalina/connector/CoyoteOutputStream extends javax/servlet/ServletOutputStream
+	org/apache/catalina/connector/CoyoteReader extends java/io/BufferedReader
+	org/apache/catalina/connector/CoyoteWriter extends java/io/PrintWriter
+	org/apache/catalina/connector/InputBuffer extends java/io/Reader implements [org/apache/tomcat/util/buf/ByteChunk$ByteInputChannel, org/apache/tomcat/util/net/ApplicationBufferHandler]
+	org/apache/catalina/connector/OutputBuffer extends java/io/Writer
+	org/apache/catalina/connector/Request extends java/lang/Object implements [javax/servlet/http/HttpServletRequest]
+	org/apache/catalina/connector/RequestFacade extends java/lang/Object implements [javax/servlet/http/HttpServletRequest]
+	org/apache/catalina/connector/Response extends java/lang/Object implements [javax/servlet/http/HttpServletResponse]
+	org/apache/catalina/connector/ResponseFacade extends java/lang/Object implements [javax/servlet/http/HttpServletResponse]
+	org/apache/catalina/webresources/TrackedInputStream extends java/io/InputStream implements [org/apache/catalina/TrackedWebResource]
+	org/apache/coyote/http11/filters/GzipOutputFilter$FakeOutputStream extends java/io/OutputStream
+	org/apache/tomcat/util/http/fileupload/ByteArrayOutputStream extends java/io/OutputStream
+	org/apache/tomcat/util/http/parser/Host$MessageBytesReader extends java/io/Reader
+	org/springframework/boot/loader/data/RandomAccessDataFile$DataInputStream extends java/io/InputStream
+	org/springframework/boot/loader/jar/ZipInflaterInputStream extends java/util/zip/InflaterInputStream
+	org/springframework/http/converter/xml/SourceHttpMessageConverter$CountingOutputStream extends java/io/OutputStream
+	org/springframework/http/server/ServerHttpResponse extends java/lang/Object implements [org/springframework/http/HttpOutputMessage, java/io/Flushable, java/io/Closeable]
+	org/springframework/http/server/ServletServerHttpResponse extends java/lang/Object implements [org/springframework/http/server/ServerHttpResponse]
+	org/springframework/security/web/util/OnCommittedResponseWrapper extends javax/servlet/http/HttpServletResponseWrapper
+	org/springframework/security/web/util/OnCommittedResponseWrapper$SaveContextPrintWriter extends java/io/PrintWriter
+	org/springframework/security/web/util/OnCommittedResponseWrapper$SaveContextServletOutputStream extends javax/servlet/ServletOutputStream
+	org/springframework/util/StreamUtils$NonClosingOutputStream extends java/io/FilterOutputStream
+	org/thymeleaf/util/FastStringWriter extends java/io/Writer
+Total time spent: 59
+Number of invocations: 5886
+
+[Probe: playhttp]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Trapped requests: 0
+Total time in requests: 0
+
+[Probe: ring-middleware-params]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: http-kit]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Trapped requests: 0
+Total time in requests: 0
+
+[Probe: compojure]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: vert-x]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Trapped requests: 0
+Total time in requests: 0
+
+[Probe: coldfusion]
+Instrumented classes: 1
+	java/lang/reflect/Method extends java/lang/reflect/Executable
+Total time spent: 0
+Number of invocations: 640
+
+[Probe: nosql-service]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Unhandled Hbase inputs in sink: 0
+
+[Probe: sql-service]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: sql-connection]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: thread]
+Instrumented classes: 37
+	java/io/DeleteOnExitHook$1 extends java/lang/Object implements [java/lang/Runnable]
+	java/lang/ApplicationShutdownHooks$1 extends java/lang/Object implements [java/lang/Runnable]
+	java/util/concurrent/Executors$PrivilegedCallable extends java/lang/Object implements [java/util/concurrent/Callable]
+	java/util/concurrent/Executors$PrivilegedCallableUsingCurrentClassLoader extends java/lang/Object implements [java/util/concurrent/Callable]
+	java/util/logging/LogManager$Cleaner extends java/lang/Thread
+	jdk/internal/misc/Signal$1 extends java/lang/Object implements [java/lang/Runnable]
+	jdk/internal/perf/Perf$CleanerAction extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/catalina/core/ContainerBase$ContainerBackgroundProcessor extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/catalina/core/ContainerBase$ContainerBackgroundProcessorMonitor extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/catalina/core/ContainerBase$StartChild extends java/lang/Object implements [java/util/concurrent/Callable]
+	org/apache/catalina/core/ContainerBase$StopChild extends java/lang/Object implements [java/util/concurrent/Callable]
+	org/apache/catalina/core/StandardServer$1 extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/catalina/core/StandardServer$2 extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/coyote/AbstractProtocol$1 extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/coyote/AbstractProtocol$2 extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/tomcat/util/net/Acceptor extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/tomcat/util/net/NioBlockingSelector$BlockPoller extends java/lang/Thread
+	org/apache/tomcat/util/net/NioBlockingSelector$BlockPoller$RunnableRemove extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/tomcat/util/net/NioEndpoint$NioSocketWrapper$NioOperationState extends org/apache/tomcat/util/net/SocketWrapperBase$OperationState
+	org/apache/tomcat/util/net/NioEndpoint$Poller extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/tomcat/util/net/NioEndpoint$SocketProcessor extends org/apache/tomcat/util/net/SocketProcessorBase
+	org/apache/tomcat/util/net/SocketProcessorBase extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/tomcat/util/net/SocketWrapperBase$OperationState extends java/lang/Object implements [java/lang/Runnable]
+	org/apache/tomcat/util/threads/TaskThread extends java/lang/Thread
+	org/apache/tomcat/util/threads/TaskThread$WrappingRunnable extends java/lang/Object implements [java/lang/Runnable]
+	org/springframework/beans/factory/support/DisposableBeanAdapter extends java/lang/Object implements [org/springframework/beans/factory/DisposableBean, java/lang/Runnable, java/io/Serializable]
+	org/springframework/boot/autoconfigure/BackgroundPreinitializer$1 extends java/lang/Object implements [java/lang/Runnable]
+	org/springframework/boot/autoconfigure/BackgroundPreinitializer$CharsetInitializer extends java/lang/Object implements [java/lang/Runnable]
+	org/springframework/boot/autoconfigure/BackgroundPreinitializer$ConversionServiceInitializer extends java/lang/Object implements [java/lang/Runnable]
+	org/springframework/boot/autoconfigure/BackgroundPreinitializer$JacksonInitializer extends java/lang/Object implements [java/lang/Runnable]
+	org/springframework/boot/autoconfigure/BackgroundPreinitializer$MessageConverterInitializer extends java/lang/Object implements [java/lang/Runnable]
+	org/springframework/boot/autoconfigure/BackgroundPreinitializer$ValidationInitializer extends java/lang/Object implements [java/lang/Runnable]
+	org/springframework/boot/web/embedded/tomcat/TomcatWebServer$1 extends java/lang/Thread
+	org/springframework/cglib/core/internal/LoadingCache$2 extends java/lang/Object implements [java/util/concurrent/Callable]
+	org/springframework/context/support/AbstractApplicationContext$1 extends java/lang/Thread
+	org/springframework/core/task/SimpleAsyncTaskExecutor$ConcurrencyThrottlingRunnable extends java/lang/Object implements [java/lang/Runnable]
+	org/springframework/web/servlet/mvc/method/annotation/ResponseBodyEmitter$DefaultCallback extends java/lang/Object implements [java/lang/Runnable]
+Total time spent: 38
+Number of invocations: 14516
+
+[Probe: xml-service]
+Instrumented classes: 1
+	com/sun/org/apache/xerces/internal/jaxp/DocumentBuilderFactoryImpl extends javax/xml/parsers/DocumentBuilderFactory
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: xml-text-service]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: outgoing-http-request]
+Instrumented classes: 1
+	java/net/URL extends java/lang/Object implements [java/io/Serializable]
+Total time spent: 7
+Number of invocations: 19875
+
+[Probe: cross-analysis]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Total number of submitted outgoing calls: 0
+Total number of submitted incoming calls: 1
+
+[Probe: spring-url-discovery]
+Instrumented classes: 1
+	org/springframework/web/servlet/handler/AbstractHandlerMethodMapping extends org/springframework/web/servlet/handler/AbstractHandlerMapping implements [org/springframework/beans/factory/InitializingBean]
+Total time spent: 6
+Number of invocations: 12
+
+[Probe: jersey-url-discovery]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: servlet-url-discovery]
+Instrumented classes: 0
+Total time spent: 362
+Number of invocations: 1
+Servlets filtered from discovery: 
+Context path to real path mappings:
+  -  - /private/var/folders/r8/9qzkxsr16dld9v15d8p3fh100000gn/T/tomcat-docbase.4001.10931371510987261845/
+
+[Probe: resteasy-url-discovery]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: apache-cxf-url-discovery]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: ibm-jaxrs-url-discovery]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: vertx-url-discovery]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+
+[Probe: checker.weak_crypto_ssl]
+Instrumented classes: 2
+	javax/net/ssl/SSLEngine extends java/lang/Object
+	javax/net/ssl/SSLParameters extends java/lang/Object
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+Number of cipher suites: 0
+
+[Probe: checker.ssrf]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+Number of tainted Url: 0
+
+[Probe: checker.sensitive]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 3
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.dir_traversal]
+Instrumented classes: 0
+Total time spent: 3
+Number of invocations: 2126
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.weak_enc]
+Instrumented classes: 1
+	javax/crypto/Cipher extends java/lang/Object
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.sqli]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.r_xss]
+Instrumented classes: 0
+Total time spent: 59
+Number of invocations: 12
+Number of findings: 5
+Number of scope filtered findings: 1
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.no_session_exp]
+Instrumented classes: 1
+	javax/servlet/http/HttpSession extends java/lang/Object
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.click_jack]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.cook_http]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 7
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+Number of intercepted cookies: 0
+Number of unsafe cookies: 0
+
+[Probe: checker.cook_sec]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 7
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+Number of intercepted cookies: 0
+Number of unsafe cookies: 0
+
+[Probe: checker.insecure_redirect]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.csrf]
+Instrumented classes: 1
+	org/springframework/security/web/csrf/CsrfFilter extends org/springframework/web/filter/OncePerRequestFilter
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.ws_https]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+HTTP requests: 0 (0 ignored)
+HTTPS requests: 0
+
+[Probe: checker.logi]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 3
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.ldap_injection]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.basic_notsecure]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.info_disc_headers]
+Instrumented classes: 0
+Total time spent: 2
+Number of invocations: 7
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.xpath_inject]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.hibernatei]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.nosqli]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.insuf_ssl_enforc]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 6
+Number of scope filtered findings: 1
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.sensitive_url]
+Instrumented classes: 0
+Total time spent: 1
+Number of invocations: 7
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.conn_string_inject]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.session_url]
+Instrumented classes: 1
+	javax/servlet/http/HttpSession extends java/lang/Object
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.reflect_inject]
+Instrumented classes: 9
+	java/lang/Class extends java/lang/Object implements [java/io/Serializable, java/lang/reflect/GenericDeclaration, java/lang/reflect/Type, java/lang/reflect/AnnotatedElement]
+	java/lang/ClassLoader extends java/lang/Object
+	java/net/URLClassLoader extends java/security/SecureClassLoader implements [java/io/Closeable]
+	jdk/internal/loader/BuiltinClassLoader extends java/security/SecureClassLoader
+	jdk/internal/loader/ClassLoaders$AppClassLoader extends jdk/internal/loader/BuiltinClassLoader
+	org/apache/catalina/loader/WebappClassLoaderBase extends java/net/URLClassLoader implements [org/apache/catalina/Lifecycle, org/apache/tomcat/InstrumentableClassLoader, org/apache/juli/WebappProperties, org/apache/tomcat/util/security/PermissionCheck]
+	org/springframework/boot/loader/LaunchedURLClassLoader extends java/net/URLClassLoader
+	org/springframework/boot/web/embedded/tomcat/TomcatEmbeddedWebappClassLoader extends org/apache/catalina/loader/ParallelWebappClassLoader
+	org/springframework/context/support/ContextTypeMatchClassLoader extends org/springframework/core/DecoratingClassLoader implements [org/springframework/core/SmartClassLoader]
+Total time spent: 5
+Number of invocations: 3033
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.cookie_injection]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 7
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.cmd_inject]
+Instrumented classes: 1
+	java/lang/ProcessBuilder extends java/lang/Object
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.http_headers_injection]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.misconfigured_access_control_allow_origin_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.misconfigured_x_content_type_options_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.missing_public_key_pins_report_only_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.missing_expect_ct_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.missing_strict_transport_security_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.missing_xss_protection_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.missing_content_type_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 1
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.missing_content_type_options_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 1
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.missing_referrer_policy_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 6
+Number of scope filtered findings: 1
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.missing_content_security_policy_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 6
+Number of scope filtered findings: 1
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.missing_cache_control_header]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 1
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.weak_password_policy]
+Instrumented classes: 0
+Total time spent: 1
+Number of invocations: 7
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+Number of parsed responses: 2
+Password field identifiers: [  ]
+[Probe: checker.weak_hash]
+Instrumented classes: 1
+	java/security/MessageDigest extends java/security/MessageDigestSpi
+Total time spent: 2
+Number of invocations: 25
+Number of findings: 2
+Number of scope filtered findings: 16
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.dos_blocking_call]
+Instrumented classes: 9
+	java/lang/Process extends java/lang/Object
+	org/apache/catalina/connector/CoyoteAdapter extends java/lang/Object implements [org/apache/coyote/Adapter]
+	org/apache/catalina/core/StandardContext extends org/apache/catalina/core/ContainerBase implements [org/apache/catalina/Context, javax/management/NotificationEmitter]
+	org/apache/catalina/core/StandardServer extends org/apache/catalina/util/LifecycleMBeanBase implements [org/apache/catalina/Server]
+	org/apache/catalina/core/StandardWrapper extends org/apache/catalina/core/ContainerBase implements [javax/servlet/ServletConfig, org/apache/catalina/Wrapper, javax/management/NotificationEmitter]
+	org/apache/catalina/loader/WebappClassLoaderBase extends java/net/URLClassLoader implements [org/apache/catalina/Lifecycle, org/apache/tomcat/InstrumentableClassLoader, org/apache/juli/WebappProperties, org/apache/tomcat/util/security/PermissionCheck]
+	org/apache/tomcat/util/net/AbstractEndpoint extends java/lang/Object
+	org/apache/tomcat/util/net/Acceptor extends java/lang/Object implements [java/lang/Runnable]
+	sun/nio/ch/FileChannelImpl extends java/nio/channels/FileChannel
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.el_inject]
+Instrumented classes: 1
+	org/springframework/expression/common/TemplateAwareExpressionParser extends java/lang/Object implements [org/springframework/expression/ExpressionParser]
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.sensitive_browser_cache]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 1
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.weak_password_db_connection]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.insec_http_method_head]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 4
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+Number of tested Paths: 1
+
+[Probe: checker.weak_hash_sensitive]
+Instrumented classes: 1
+	java/security/MessageDigest extends java/security/MessageDigestSpi
+Total time spent: 0
+Number of invocations: 25
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.userdef_sensitive_browser_cache]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 1
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.xxe_inject]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 2080
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.insec_http_method_trace]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 6
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+Number of tested Paths: 1
+
+[Probe: checker.weak_random_generator]
+Instrumented classes: 1
+	java/util/Random extends java/lang/Object implements [java/io/Serializable]
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.unsafe_deserialization]
+Instrumented classes: 2
+	java/beans/XMLDecoder extends java/lang/Object implements [java/lang/AutoCloseable]
+	java/io/ObjectInputStream extends java/io/InputStream implements [java/io/ObjectInput, java/io/ObjectStreamConstants]
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.dos_regexp]
+Instrumented classes: 1
+	java/util/regex/Pattern extends java/lang/Object implements [java/io/Serializable]
+Total time spent: 0
+Number of invocations: 30
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.improper_logout]
+Instrumented classes: 1
+	javax/servlet/http/HttpSession extends java/lang/Object
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.trust_boundary_violation]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.insufficient_logging_of_security_exception]
+Instrumented classes: 85
+	java/lang/SecurityException extends java/lang/RuntimeException
+	java/security/AccessControlException extends java/lang/SecurityException
+	java/security/DigestException extends java/security/GeneralSecurityException
+	java/security/GeneralSecurityException extends java/lang/Exception
+	java/security/InvalidAlgorithmParameterException extends java/security/GeneralSecurityException
+	java/security/InvalidKeyException extends java/security/KeyException
+	java/security/InvalidParameterException extends java/lang/IllegalArgumentException
+	java/security/KeyException extends java/security/GeneralSecurityException
+	java/security/KeyManagementException extends java/security/KeyException
+	java/security/KeyStoreException extends java/security/GeneralSecurityException
+	java/security/NoSuchAlgorithmException extends java/security/GeneralSecurityException
+	java/security/NoSuchProviderException extends java/security/GeneralSecurityException
+	java/security/PrivilegedActionException extends java/lang/Exception
+	java/security/SignatureException extends java/security/GeneralSecurityException
+	java/security/UnrecoverableEntryException extends java/security/GeneralSecurityException
+	java/security/UnrecoverableKeyException extends java/security/UnrecoverableEntryException
+	java/security/cert/CertificateException extends java/security/GeneralSecurityException
+	java/security/spec/InvalidKeySpecException extends java/security/GeneralSecurityException
+	java/security/spec/InvalidParameterSpecException extends java/security/GeneralSecurityException
+	javax/crypto/CryptoPolicyParser$ParsingException extends java/security/GeneralSecurityException
+	org/springframework/aop/AopInvocationException extends org/springframework/core/NestedRuntimeException
+	org/springframework/beans/BeanInstantiationException extends org/springframework/beans/FatalBeanException
+	org/springframework/beans/BeansException extends org/springframework/core/NestedRuntimeException
+	org/springframework/beans/ConversionNotSupportedException extends org/springframework/beans/TypeMismatchException
+	org/springframework/beans/FatalBeanException extends org/springframework/beans/BeansException
+	org/springframework/beans/InvalidPropertyException extends org/springframework/beans/FatalBeanException
+	org/springframework/beans/MethodInvocationException extends org/springframework/beans/PropertyAccessException
+	org/springframework/beans/NotReadablePropertyException extends org/springframework/beans/InvalidPropertyException
+	org/springframework/beans/NotWritablePropertyException extends org/springframework/beans/InvalidPropertyException
+	org/springframework/beans/NullValueInNestedPathException extends org/springframework/beans/InvalidPropertyException
+	org/springframework/beans/PropertyAccessException extends org/springframework/beans/BeansException
+	org/springframework/beans/PropertyBatchUpdateException extends org/springframework/beans/BeansException
+	org/springframework/beans/TypeMismatchException extends org/springframework/beans/PropertyAccessException
+	org/springframework/beans/factory/BeanCreationException extends org/springframework/beans/FatalBeanException
+	org/springframework/beans/factory/BeanCreationNotAllowedException extends org/springframework/beans/factory/BeanCreationException
+	org/springframework/beans/factory/BeanCurrentlyInCreationException extends org/springframework/beans/factory/BeanCreationException
+	org/springframework/beans/factory/BeanDefinitionStoreException extends org/springframework/beans/FatalBeanException
+	org/springframework/beans/factory/BeanExpressionException extends org/springframework/beans/FatalBeanException
+	org/springframework/beans/factory/BeanInitializationException extends org/springframework/beans/FatalBeanException
+	org/springframework/beans/factory/BeanIsAbstractException extends org/springframework/beans/factory/BeanCreationException
+	org/springframework/beans/factory/BeanIsNotAFactoryException extends org/springframework/beans/factory/BeanNotOfRequiredTypeException
+	org/springframework/beans/factory/BeanNotOfRequiredTypeException extends org/springframework/beans/BeansException
+	org/springframework/beans/factory/CannotLoadBeanClassException extends org/springframework/beans/FatalBeanException
+	org/springframework/beans/factory/FactoryBeanNotInitializedException extends org/springframework/beans/FatalBeanException
+	org/springframework/beans/factory/NoSuchBeanDefinitionException extends org/springframework/beans/BeansException
+	org/springframework/beans/factory/NoUniqueBeanDefinitionException extends org/springframework/beans/factory/NoSuchBeanDefinitionException
+	org/springframework/beans/factory/UnsatisfiedDependencyException extends org/springframework/beans/factory/BeanCreationException
+	org/springframework/beans/factory/parsing/BeanDefinitionParsingException extends org/springframework/beans/factory/BeanDefinitionStoreException
+	org/springframework/beans/factory/support/BeanDefinitionOverrideException extends org/springframework/beans/factory/BeanDefinitionStoreException
+	org/springframework/beans/factory/support/BeanDefinitionValidationException extends org/springframework/beans/FatalBeanException
+	org/springframework/beans/factory/support/ScopeNotActiveException extends org/springframework/beans/factory/BeanCreationException
+	org/springframework/beans/factory/xml/XmlBeanDefinitionStoreException extends org/springframework/beans/factory/BeanDefinitionStoreException
+	org/springframework/boot/context/properties/ConfigurationPropertiesBindException extends org/springframework/beans/factory/BeanCreationException
+	org/springframework/context/ApplicationContextException extends org/springframework/beans/FatalBeanException
+	org/springframework/core/NestedRuntimeException extends java/lang/RuntimeException
+	org/springframework/core/annotation/AnnotationConfigurationException extends org/springframework/core/NestedRuntimeException
+	org/springframework/core/convert/ConversionException extends org/springframework/core/NestedRuntimeException
+	org/springframework/core/convert/ConversionFailedException extends org/springframework/core/convert/ConversionException
+	org/springframework/core/convert/ConverterNotFoundException extends org/springframework/core/convert/ConversionException
+	org/springframework/http/converter/HttpMessageConversionException extends org/springframework/core/NestedRuntimeException
+	org/springframework/http/converter/HttpMessageNotReadableException extends org/springframework/http/converter/HttpMessageConversionException
+	org/springframework/http/converter/HttpMessageNotWritableException extends org/springframework/http/converter/HttpMessageConversionException
+	org/springframework/security/access/AccessDeniedException extends java/lang/RuntimeException
+	org/springframework/security/authentication/AccountExpiredException extends org/springframework/security/authentication/AccountStatusException
+	org/springframework/security/authentication/AccountStatusException extends org/springframework/security/core/AuthenticationException
+	org/springframework/security/authentication/AuthenticationCredentialsNotFoundException extends org/springframework/security/core/AuthenticationException
+	org/springframework/security/authentication/AuthenticationServiceException extends org/springframework/security/core/AuthenticationException
+	org/springframework/security/authentication/BadCredentialsException extends org/springframework/security/core/AuthenticationException
+	org/springframework/security/authentication/CredentialsExpiredException extends org/springframework/security/authentication/AccountStatusException
+	org/springframework/security/authentication/DisabledException extends org/springframework/security/authentication/AccountStatusException
+	org/springframework/security/authentication/InsufficientAuthenticationException extends org/springframework/security/core/AuthenticationException
+	org/springframework/security/authentication/InternalAuthenticationServiceException extends org/springframework/security/authentication/AuthenticationServiceException
+	org/springframework/security/authentication/LockedException extends org/springframework/security/authentication/AccountStatusException
+	org/springframework/security/authentication/ProviderNotFoundException extends org/springframework/security/core/AuthenticationException
+	org/springframework/security/config/annotation/AlreadyBuiltException extends java/lang/IllegalStateException
+	org/springframework/security/core/AuthenticationException extends java/lang/RuntimeException
+	org/springframework/security/core/userdetails/UsernameNotFoundException extends org/springframework/security/core/AuthenticationException
+	org/springframework/security/web/authentication/session/SessionAuthenticationException extends org/springframework/security/core/AuthenticationException
+	org/springframework/security/web/csrf/CsrfException extends org/springframework/security/access/AccessDeniedException
+	org/springframework/security/web/csrf/InvalidCsrfTokenException extends org/springframework/security/web/csrf/CsrfException
+	org/springframework/security/web/csrf/MissingCsrfTokenException extends org/springframework/security/web/csrf/CsrfException
+	org/springframework/security/web/firewall/RequestRejectedException extends java/lang/RuntimeException
+	org/springframework/web/method/annotation/MethodArgumentConversionNotSupportedException extends org/springframework/beans/ConversionNotSupportedException
+	org/springframework/web/method/annotation/MethodArgumentTypeMismatchException extends org/springframework/beans/TypeMismatchException
+	org/springframework/web/multipart/MultipartException extends org/springframework/core/NestedRuntimeException
+Total time spent: 0
+Number of invocations: 3
+Number of findings: 1
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.db_password_plaintext_storage]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+Number of password scan attempts: 0
+Total time spent on scanning files for passwords: 0
+Total number of files to search for passwords: 1
+
+[Probe: checker.spring_mvc_autobinding]
+Instrumented classes: 2
+	org/springframework/validation/DataBinder extends java/lang/Object implements [org/springframework/beans/PropertyEditorRegistry, org/springframework/beans/TypeConverter]
+	org/springframework/web/servlet/DispatcherServlet extends org/springframework/web/servlet/FrameworkServlet
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.code_burned_db_password]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+Number of password scan attempts: 0
+Total time spent on scanning classes for passwords: 0
+Number of attempts for null or empty passwords (not scanned): 0
+Number of times the password was found in the results cache: 0
+
+[Probe: checker.unrestricted_file_upload]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.session_fixation]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.old_ssl_version]
+Instrumented classes: 2
+	javax/net/ssl/SSLEngine extends java/lang/Object
+	javax/net/ssl/SSLParameters extends java/lang/Object
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+Number of protocols: 0
+Number of weak protocols: 0
+Number of strong protocols: 0
+Number of unknown protocols: 0
+
+[Probe: checker.restricted_code]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.dos_xml]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+
+[Probe: checker.sca_vulnerable_component]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Number of findings: 0
+Number of scope filtered findings: 0
+Number of sanitation filtered findings: 0
+Number of eliminated cached filtered findings: 0
+SCA Rules
+Instrumented locations from non vulnerable packages:
+
+[Probe: replay]
+Instrumented classes: 0
+Total time spent: 0
+Number of invocations: 0
+Continuous mode is currently on
+Number of requests replayed at least once: 1
+Number of empty parameters replayed: 0
+Number of unused parameters replayed: 0
+Number of existing findings replayed: 3
+Number of large requests ignored: 0
+Number of requests with unsupported content types ignored: 0
+Number of requests with SQL state changing operations ignored: 0
+Number of requests with NO-SQL state changing operations ignored: 0
+Average waiting time in the thread pool: 342107086ms
+Number of existing findings replayed per checker:
+	checker.r_xss : 1
+	checker.insec_http_method_head : 1
+	checker.insec_http_method_trace : 1
+Unresolved hosts: 0
+
+[jsp-mapping]
+Processed JSP files with SMAP: 0
+Time to parse SMAPs: 0
+No of SMAP failed to process: 0
+
+[constant-pool-service]
+total duration: 0
+number of classes: 0
+number of excluded classes: 0
+average duration for class: N/A
+average pool size: N/A
+class with longest duration: null (0)
+average duration for UTF8 fields(nano): N/A
+average duration for other fields(nano): N/A
+Total time spent getting pool(nano): 0
+Total time spent getting pool size(nano): 0
+
+[data-tainting-service]
+Total time spent on data tainting cleanup (ms):    5
+Max time for single cleanup (ms): 1
+
+[sampling-service]
+Number of sampled requests (including active verification requests): 0
+Number of ignored requests: 0
+Unique requests: 0
+
+[class-location]
+Sent class locations: 0
+Monitored class locations: 0
+Encountered resource protocols: 0
+
+[url-discovery]
+Number of mapped endpoints: 28
+  [spring] - /agreement - GET ==> public java.lang.String com.hippotech.front.AgreementController.getAgreement(java.lang.String,org.springframework.ui.Model)
+  [spring] - /blog - POST ==> public java.lang.String com.hippotech.front.BlogController.signUpToBlog(java.lang.String)
+  [spring] - /svg - GET ==> public java.lang.String com.hippotech.front.SvgController.welcomeAsHTML(java.lang.String)
+  [spring] - /error - PUT ==> public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  [spring] - /error - POST ==> public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  [spring] - /error - DELETE ==> public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  [spring] - /error - DELETE ==> public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  [spring] - /blog - GET ==> public java.lang.String com.hippotech.front.BlogController.getBlog()
+  [spring] - /error - OPTIONS ==> public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  [spring] - /error - PUT ==> public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  [spring] - /blog-signup - GET ==> public java.lang.String com.hippotech.front.BlogController.signUp(java.lang.String)
+  [spring] - /error - CONNECT ==> public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  [spring] - /agreement - POST ==> public java.lang.String com.hippotech.front.AgreementController.postAgreement(java.lang.String,int,int,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Boolean,java.lang.Boolean,java.lang.Boolean,java.lang.String)
+  [spring] - /error - GET ==> public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  [spring] - /error - GET ==> public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  [spring] - /signin - GET ==> public java.lang.String com.hippotech.front.SignInController.greeting()
+  [spring] - /error - CONNECT ==> public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  [spring] - /error - TRACE ==> public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  [spring] - /error - TRACE ==> public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  [spring] - /completed - GET ==> public java.lang.String com.hippotech.front.CompletedController.greeting(java.lang.String,org.springframework.ui.Model)
+  [spring] - /error - OPTIONS ==> public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  [spring] - /index - GET ==> public java.lang.String com.hippotech.front.IndexController.greeting(java.lang.String,org.springframework.ui.Model)
+  [spring] - /error - POST ==> public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  [spring] - /error - HEAD ==> public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  [spring] - /error - HEAD ==> public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  [spring] - /error - PATCH ==> public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+  [spring] - /error - PATCH ==> public org.springframework.http.ResponseEntity org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+  [spring] - /signup - GET ==> public java.lang.String com.hippotech.front.SignUpController.greeting(java.lang.String,org.springframework.ui.Model)
+Number of filtered endpoints: 0
+
+[instrumentation-service]
+Total time in transform: 3105
+Total time in building visitor chain: 133
+Total time in accept: 845
+Class type cache:
+  Number of files: 0
+  Number of entries: 0
+
+[performance]
+
+[finding-service]
+purged findings:    1
+submitted findings: 7
+number of requests with pending findings: 0
+number of requests flushed (findings submitted because of timeout): 0
+number of requests findings flushed: 0
+number of pending findings: 0
+auto sanitized findings per checker:
+

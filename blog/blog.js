@@ -11,6 +11,15 @@ mongoClient.connect().then(() => {
 const app = express();
 app.use(express.json())
 
+app.get('/signup', (req, res) => {
+  console.log('Received GET request');
+  console.log(req.query.email);
+  collection.insertOne({ email : req.query.email }).then(() => {
+    console.log("Email signup request stored in MongoDB");
+    res.send('');
+  });
+});
+
 app.post('/signup', (req, res) => {
   console.log("Received email signup request from front end: " + req.body.email);
   collection.insertOne({ email : req.body.email }).then(() => {

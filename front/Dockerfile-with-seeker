@@ -1,4 +1,4 @@
 FROM hippotech-front:latest
-RUN echo agent bump 1
+RUN echo agent bump 2
 RUN sh -c "$(curl -k -X GET -fsSL --header 'Accept: application/x-sh' 'http://seeker-server:8080/rest/api/latest/installers/agents/scripts/JAVA?osFamily=LINUX&downloadWith=curl&projectKey=FRONT&webServer=OTHER&flavor=DEFAULT&agentName=Front&accessToken=')"
 ENV JAVA_OPTS="-javaagent:/seeker/seeker-agent.jar"

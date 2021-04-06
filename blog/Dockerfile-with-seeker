@@ -1,6 +1,6 @@
 FROM hippotech-blog:latest
 ENV SEEKER_SERVER_URL=http://seeker-server:8080
 ENV SEEKER_PROJECT_KEY=BLOG
-RUN echo agent bump 1
+RUN echo agent bump 2
 RUN npm install --strict-ssl=false --prefix seeker "http://seeker-server:8080/rest/api/latest/installers/agents/binaries/NODEJS?projectKey=BLOG&flavor=TARGZ"
 CMD ["node", "-r", "./seeker/node_modules/@synopsys-sig/seeker", "blog.js"]
