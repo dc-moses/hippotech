@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.http.client.HttpComponentsClientHttpRequestFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
@@ -43,10 +44,11 @@ public class AgreementApprovalWorkflow {
             map.add("offerNotifications", approvalRequest.getOfferNotifications() ? "true" : "false");
             map.add("pushNotifications", approvalRequest.getPushNotifications());
 
-            RestTemplate restTemplate = new RestTemplate();
+            RestTemplate restTemplate = new RestTemplate(new HttpComponentsClientHttpRequestFactory());
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
             HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<MultiValueMap<String, String>>(map, headers);
+            logger.error("Ensure change is tested");
             logger.error(map.getFirst("nationalInsuranceNumber"));
             ResponseEntity<String> response = restTemplate.postForEntity(url, request , String.class);
         } catch (Exception e) {
