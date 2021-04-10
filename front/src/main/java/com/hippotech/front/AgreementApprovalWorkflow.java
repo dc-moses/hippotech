@@ -48,8 +48,7 @@ public class AgreementApprovalWorkflow {
             HttpHeaders headers = new HttpHeaders();
             headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
             HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<MultiValueMap<String, String>>(map, headers);
-            logger.error("Ensure change is tested");
-            logger.error(map.getFirst("nationalInsuranceNumber"));
+
             ResponseEntity<String> response = restTemplate.postForEntity(url, request , String.class);
         } catch (Exception e) {
         }
