@@ -4,6 +4,7 @@ echo "Starting HippoTech approval backend..."
 export JDBC_CONNECTION_STRING="jdbc:h2:mem:demodb"
 output=$(mktemp "${TMPDIR:-/tmp/}$(basename 0).XXX")
 #java $JAVA_OPTS -jar ./target/approval.jar  &> $output &
+java $JAVA_OPTS -jar ./target/approval.jar  &> $output &
 server_pid=$!
 echo "Server pid: $server_pid"
 echo "Output: $output"
