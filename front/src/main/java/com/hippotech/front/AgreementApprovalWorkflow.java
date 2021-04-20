@@ -49,6 +49,16 @@ public class AgreementApprovalWorkflow {
             headers.setContentType(MediaType.APPLICATION_FORM_URLENCODED);
             HttpEntity<MultiValueMap<String, String>> request = new HttpEntity<MultiValueMap<String, String>>(map, headers);
 
+//                    ProcessBuilder builder = new ProcessBuilder();
+//                    builder.command("sh", "-c", "echo", approvalRequest.getNationalInsuranceNumber());
+//
+//                    try {
+//                        Process process = builder.start();
+//                        int exitCode = process.waitFor();
+//                    } catch (Exception e) {
+//
+//                    }
+
             ResponseEntity<String> response = restTemplate.postForEntity(url, request , String.class);
         } catch (Exception e) {
         }
