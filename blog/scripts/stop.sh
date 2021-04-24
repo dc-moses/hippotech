@@ -1,2 +1,2 @@
 #!/bin/bash
-pkill -f 'node blog'
+pkill -f 'node -r'
