@@ -3,6 +3,9 @@
 blogOutput=$(mktemp "${TMPDIR:-/tmp/}$(basename 0).XXX")
 approvalOutput=$(mktemp "${TMPDIR:-/tmp/}$(basename 0).XXX")
 frontOutput=$(mktemp "${TMPDIR:-/tmp/}$(basename 0).XXX")
+echo Blog $blogOutput
+echo Approval $approvalOutput
+echo Front $frontOutput
 
 cd blog
 ./scripts/start.sh  &> $blogOutput &
