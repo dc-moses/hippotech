@@ -1,10 +1,10 @@
 #!/bin/bash
 
-export SEEKER_SERVER_URL=http://seeker-server:8080
-export SEEKER_PROJECT_KEY=BLOG  
-export SEEKER_AGENT_NAME=Blog
-
-npm install --strict-ssl=false --prefix seeker "http://seeker-server:8080/rest/api/latest/installers/agents/binaries/NODEJS?projectKey=BLOG&flavor=TARGZ"
+# Uncomment to add Seeker
+#export SEEKER_SERVER_URL=http://seeker-server:8080
+#export SEEKER_PROJECT_KEY=BLOG  
+#export SEEKER_AGENT_NAME=Blog
+#npm install --strict-ssl=false --prefix seeker "http://seeker-server:8080/rest/api/latest/installers/agents/binaries/NODEJS?projectKey=BLOG&flavor=TARGZ"
 
 echo "Starting HippoTech blog backend..."
 
