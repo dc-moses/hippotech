@@ -1,2 +1,2 @@
 #!/bin/bash
-pkill -f 'node -r'
+pkill -f 'node.*blog.*'

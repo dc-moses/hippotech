@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node -r './seeker/node_modules/@synopsys-sig/seeker' blog.js"
+    "start-with-seeker": "node -r './seeker/node_modules/@synopsys-sig/seeker' blog.js",
+    "start": "node blog.js"
   },
   "keywords": [],
   "author": "",
