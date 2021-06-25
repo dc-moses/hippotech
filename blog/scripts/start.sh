@@ -11,7 +11,7 @@ output=$(mktemp "${TMPDIR:-/tmp/}$(basename 0).XXX")
 
 echo $output
 
-npm start  &> $output &
+npm run start-with-seeker  &> $output &
 server_pid=$!
 echo "Server pid: $server_pid"
 echo "Output: $output"
