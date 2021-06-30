@@ -353,7 +353,7 @@
     "persistSession": true,
     "parallel": false,
     "timeout": 300,
-    "tests": ["6db5f7c8-e437-4e7b-b6ba-61433503bf1f", "d89b7ded-0345-40f8-b46e-f9d13bbb0d90", "c83fe531-f0f9-40a1-bd17-e821e57c787b"]
+    "tests": ["6db5f7c8-e437-4e7b-b6ba-61433503bf1f", "d89b7ded-0345-40f8-b46e-f9d13bbb0d90"]
   }],
   "urls": ["http://localhost:4001/"],
   "plugins": []
