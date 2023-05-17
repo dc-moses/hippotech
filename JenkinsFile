@@ -1,0 +1,51 @@
+pipeline {
+    agent any 
+    stages {
+        stage('Git clone') {
+            steps {
+                git url:'file:///repos/hippotech.git', branch:'main'
+            }
+        }
+        stage('Build') {
+            steps {
+                sh './scripts/build-all.sh'
+            }
+        }
+        stage('Unit Testing') {
+            steps {
+                sh '''cd front
+                      cd ..'''
+            }
+        }
+        stage('Selenium Automated Testing') {
+            steps {
+                sh '''
+                      export JAVA_OPTS="$JAVA_OPTS -javaagent:/opt/seeker/seeker-agent.jar" 
+                      ./scripts/start-all.sh
+                      selenium-side-runner -c "browserName=firefox" --output-directory=./selenium/results --output-format=junit ./selenium/HippoTech.side
+                      ./scripts/stop-all.sh'''
+                junit 'selenium/results/*.xml'
+            }
+        }
+        stage('Seeker Compliance') {
+            steps {
+                catchError {
+                    synopsysSeeker condition: 'COMPLIANCE_POLICY', projectKey: 'APPROVAL', reportFormat: 'pdf'
+                }
+            }
+            post {
+                success {
+                    echo 'Seeker security compliance check passed.'
+                }
+                failure {
+                    error('Pipeline is aborted due to Seeker security compliance policy failure.  See attached PDF for details.')
+                }
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh 'sleep 1'
+            }
+        }
+    }
+}
