@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Git clone') {
             steps {
-                git url:'file:///repos/hippotech.git', branch:'main'
+                git url:'https://github.com/dc-moses/hippotech.git', branch:'main'
             }
         }
         stage('Build') {
