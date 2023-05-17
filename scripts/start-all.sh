@@ -11,9 +11,7 @@ echo Front $frontOutput
 #./scripts/start.sh  &> $blogOutput &
 #cd ..
 
-cd approval
-./scripts/start.sh  &> $approvalOutput &
-cd ..
+/approval/scripts/start.sh  &> $approvalOutput &
 
 #cd front
 #./scripts/start.sh  &> $frontOutput &
