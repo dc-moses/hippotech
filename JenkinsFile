@@ -22,9 +22,9 @@ pipeline {
                 sh '''
                       export JAVA_OPTS="$JAVA_OPTS -javaagent:/opt/seeker/seeker-agent.jar" 
                       ./scripts/start-all.sh
-                      selenium-side-runner -c "browserName=firefox moz:firefoxOptions.args=[-headless]"--output-directory=/tmp --output-format=junit ${WORKSPACE}/selenium/jHipster.side
+                      selenium-side-runner -c "browserName=firefox moz:firefoxOptions.args=[-headless]"--output-directory=/tmp --output-format=junit ${WORKSPACE}/selenium/HippoTech.side
                       ./scripts/stop-all.sh'''
-                junit 'tmp/*.xml'
+                junit '/tmp/*.xml'
             }
         }
         stage('Seeker Compliance') {
