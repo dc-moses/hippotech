@@ -45,8 +45,8 @@ jobs:
       - name: Use Node.js 12.x
         uses: actions/setup-node@v2
         with:
-        node-version: 12.x
-        cache: 'npm'
+          node-version: 12.x
+          cache: 'npm'
 
       - name: Functional Tests
         uses: cypress-io/github-action@v2
