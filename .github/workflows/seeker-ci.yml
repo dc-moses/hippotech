@@ -10,12 +10,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     env:
       SEEKER_SERVER_URL: https://testing.seeker.synopsys.com:8443
       SEEKER_PROJECT_KEY: HIPPOTECH-GITHUB
       SEEKER_COMPLIANCE_FAIL_BUILD: true
-
     steps:
       - uses: actions/checkout@v2
       
