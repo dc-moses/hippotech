@@ -92,4 +92,4 @@ jobs:
         uses: mikepenz/action-junit-report@v2
         with:
           report_paths: '**/results/*.xml'
-          check_name: "test
+          check_name: "test"
